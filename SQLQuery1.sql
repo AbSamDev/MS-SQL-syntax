@@ -17,7 +17,8 @@ truncate table persons       /*to delete the data in the table */
 
 alter table persons add email varchar (255)     /* adding column named email in persons table*/
 alter table persons drop column email          /*deleting column in persons table*/
-alter table persons alter column personID varchar /*changing datatype of column*/
+alter table persons alter column personID varchar /*changing datatype of column*/ 
+/*??? alter table persons alter column personID varchar(255) ???*/
 
 /*inserting data into table write only values if want to insert in all column*/
 insert into persons (personID, lastName, firstName, address2, city)
