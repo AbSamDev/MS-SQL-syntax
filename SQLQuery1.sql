@@ -11,6 +11,8 @@ create table persons (         /*creating persons table with following column*/
 	address2 varchar (255), 
 	city varchar (255)
 );
+insert into persons values (2, 'Ahsan', 'jutt', 'wall street', 'USA');
+insert into persons values (3, 'legend', 'Ahsan', 'Dalal street', 'Mumbai');
 
 drop table persons           /*to delete the table */
 truncate table persons       /*to delete the data in the table */
