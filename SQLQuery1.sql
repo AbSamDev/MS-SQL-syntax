@@ -31,3 +31,11 @@ select * from persons  /*select all data from persons table*/
 select firstName, lastName from persons /*selecting specific columns from persons table*/
 
 select distinct firstName from persons /*to return different values*/
+
+/* Joins */
+/* joins combine row and columns of different tables */
+/* Inner Join */
+Select Students.St_Name, Result.Maths
+from Students 
+Inner Join Result ON Students.St_id = Result.St_id
+
